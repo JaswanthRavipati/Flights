@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="GqD_WU977W7cRh1KuYTp">
+    <mxGraphModel dx="946" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-12" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wzz_kx8KfjC1lkIIP6tr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Flights CSV Dataset&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-13" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Scaling (1x → 100x using Spark)" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-26" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-29" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wzz_kx8KfjC1lkIIP6tr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Processing Layer" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-16" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="130" />
+              <mxPoint x="650" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pandas Processing" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-15" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="240" />
+              <mxPoint x="650" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spark Processing" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-20" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Wzz_kx8KfjC1lkIIP6tr-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="300" />
+              <mxPoint x="100" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Performance Comparison" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-22" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Cleaning (Spark)" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-21" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Results (Time Analysis Table)" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-23" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigQuery (Storage Layer)" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-24" edge="1" parent="1" source="Wzz_kx8KfjC1lkIIP6tr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wzz_kx8KfjC1lkIIP6tr-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Looker Studio Dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Wzz_kx8KfjC1lkIIP6tr-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Interactive Visualization (KPIs + Charts + Filters)" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
